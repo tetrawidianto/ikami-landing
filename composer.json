@@ -1,0 +1,24 @@
+{
+    "name": "tetrawidianto/ikami-landing",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tetra Widianto",
+            "email": "tetraw86@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "IkamiLanding\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "IkamiLanding\\IkamiLandingServiceProvider"
+            ]
+        }
+    }
+}
